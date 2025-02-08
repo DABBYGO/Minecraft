@@ -1,0 +1,13 @@
+StoneBoulder,650,659,10178,10187
+StonePlantMound3,637,646,10106,10117
+StonePlantMound1,565,571,10211,10217
+GiganticTree,731,809,10013,10082
+StonePlantBoulder,846,856,10191,10201
+MeteorSite,852,882,10181,10196
+ForestBeacon,754,762,9997,10005
+StonePlantMound2,580,592,9969,9982
+StonePlantBoulder,740,750,9981,9991
+WoodWallRemains,659,667,9957,9985
+SmallOutpost,894,924,10127,10149
+RLCraft_BasicCaveSpider,914,914,9997,9997
+RLCraft_UndergroundRuin1,911,920,9991,10000

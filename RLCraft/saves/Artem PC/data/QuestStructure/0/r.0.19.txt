@@ -1,0 +1,5 @@
+StonePlantMound1,491,497,10183,10189
+BlazeSpawnerCrystal,480,486,10169,10175
+SmallAbandonedMine,469,494,10091,10106
+RLCraft_SmallUndergroundSkeleton,475,483,9996,10004
+StonePlantMound4,462,469,10042,10049

@@ -1,0 +1,5 @@
+StoneBoulder,8217,8226,8989,8998
+StoneBoulder,8234,8243,9022,9031
+PeacefulCrypt,8275,8291,9064,9088
+StonePlantMound2,8197,8209,9108,9121
+StonePlantBoulder,8195,8205,9123,9133

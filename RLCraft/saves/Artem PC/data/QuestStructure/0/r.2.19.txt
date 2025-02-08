@@ -1,0 +1,2 @@
+RLCraft_SmallUndergroundSkeleton,1023,1031,10181,10189
+MeteorSite,1027,1042,10196,10226

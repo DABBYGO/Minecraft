@@ -1,0 +1,4 @@
+StonePlantMound3,8169,8180,9104,9113
+UndergroundCultChamber,8077,8119,9052,9084
+RLCraft_BasicWitch,8155,8155,9131,9131
+RLCraft_UndergroundRuin1,8149,8158,9125,9134

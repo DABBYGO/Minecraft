@@ -1,0 +1,645 @@
+[000.000][18:23:15.484][INFO] Log starts at 2025-02-08T02:23:15.484Z (18:23:15.484 local time)
+[000.000][18:23:15.484][INFO] Starting connection between JOEBIGMOM (c384c695-8362-4a11-9ab5-5bb1127b41d5) and Bananyse (47f637fa-54fa-4f2a-b209-55401e93c4a2), we are the server
+[000.000][18:23:15.484][DEBUG] CandidateManager logs are stored in C:\Users\artem\curseforge\minecraft\Instances\RLCraft\essential\ice-logs\connection-4.log
+[000.000][18:23:15.484][DEBUG] Got new local candidate: /fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635
+[000.000][18:23:15.484][DEBUG] Got new local candidate: /192.168.50.111:51636
+[000.000][18:23:15.484][DEBUG] Got new local candidate: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636)
+[000.000][18:23:15.484][DEBUG] Got new local candidate: /135.148.232.62:65085 (relayed for /192.168.50.111:51636)
+[000.000][18:23:15.484][DEBUG] Ignoring new local candidate /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) because we already have /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636)
+[000.000][18:23:15.484][DEBUG] Ignoring new local candidate /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) because we already have /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636)
+[000.000][18:23:15.484][DEBUG] Got new local candidate: /51.77.108.227:54054 (relayed for /192.168.50.111:51636)
+[000.000][18:23:15.484][DEBUG] Ignoring new local candidate /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) because we already have /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636)
+[000.000][18:23:15.484][DEBUG] Got new local candidate: /15.235.143.176:55978 (relayed for /192.168.50.111:51636)
+[000.000][18:23:15.484][DEBUG] Got new local candidate: /139.99.223.53:54705 (relayed for /192.168.50.111:51636)
+[000.002][18:23:15.486][INFO] Using QUIC because both parties support it.
+[000.005][18:23:15.489][DEBUG] Got new remote candidate: /fe80:0:0:0:2a8e:1f2e:1831:4e4:57328 (host)
+[000.005][18:23:15.489][TRACE] New candidate pair: /fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 -> /fe80:0:0:0:2a8e:1f2e:1831:4e4:57328 (host)
+[000.005][18:23:15.489][DEBUG] Got new remote candidate: /192.168.50.119:57329 (host)
+[000.005][18:23:15.489][TRACE] New candidate pair: /192.168.50.111:51636 -> /192.168.50.119:57329 (host)
+[000.006][18:23:15.490][TRACE] Replacing lower priority candidate pair /192.168.50.111:51636 -> /192.168.50.119:57329 (host) with new pair
+[000.006][18:23:15.490][TRACE] New candidate pair: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /192.168.50.119:57329 (host)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /fe80:0:0:0:4987:caad:2c6b:a92f:57330 (host)
+[000.006][18:23:15.490][TRACE] New candidate pair: /fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 -> /fe80:0:0:0:4987:caad:2c6b:a92f:57330 (host)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /172.22.208.1:57331 (host)
+[000.006][18:23:15.490][TRACE] New candidate pair: /192.168.50.111:51636 -> /172.22.208.1:57331 (host)
+[000.006][18:23:15.490][TRACE] Replacing lower priority candidate pair /192.168.50.111:51636 -> /172.22.208.1:57331 (host) with new pair
+[000.006][18:23:15.490][TRACE] New candidate pair: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /172.22.208.1:57331 (host)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /23.16.60.2:57329 (srflx)
+[000.006][18:23:15.490][TRACE] New candidate pair: /192.168.50.111:51636 -> /23.16.60.2:57329 (srflx)
+[000.006][18:23:15.490][TRACE] Replacing lower priority candidate pair /192.168.50.111:51636 -> /23.16.60.2:57329 (srflx) with new pair
+[000.006][18:23:15.490][TRACE] New candidate pair: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.006][18:23:15.490][TRACE] New candidate pair: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.006][18:23:15.490][TRACE] New candidate pair: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.006][18:23:15.490][TRACE] New candidate pair: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.006][18:23:15.490][TRACE] New candidate pair: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /15.204.74.255:61511 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /172.24.128.1:57163 (host)
+[000.006][18:23:15.490][TRACE] New candidate pair: /192.168.50.111:51636 -> /172.24.128.1:57163 (host)
+[000.006][18:23:15.490][TRACE] Replacing lower priority candidate pair /192.168.50.111:51636 -> /172.24.128.1:57163 (host) with new pair
+[000.006][18:23:15.490][TRACE] New candidate pair: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /172.24.128.1:57163 (host)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /fe80:0:0:0:9840:84d4:5a6a:17ab:51070 (host)
+[000.006][18:23:15.490][TRACE] New candidate pair: /fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 -> /fe80:0:0:0:9840:84d4:5a6a:17ab:51070 (host)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /51.77.108.227:51047 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /139.99.223.53:62541 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[000.006][18:23:15.490][DEBUG] Got new remote candidate: /15.235.143.176:52007 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[000.006][18:23:15.490][TRACE] New candidate pair: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[000.054][18:23:15.538][DEBUG] [mL4EB0bUHf+7MChn] Starting connectivity check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.054][18:23:15.538][TRACE] [23.16.60.2:51636 <> 23.16.60.2:57329] [mL4EB0bUHf+7MChn] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=mL4EB0bUHf+7MChn, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1df30570])
+[000.054][18:23:15.538][TRACE] [23.16.60.2:51636 <> 23.16.60.2:57329] [mL4EB0bUHf+7MChn] Sending STUN request, attempt 1/7
+[000.105][18:23:15.589][DEBUG] [EJ5kLjpURmy+1U3o] Starting connectivity check: /fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 -> /fe80:0:0:0:2a8e:1f2e:1831:4e4:57328 (host)
+[000.105][18:23:15.589][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:2a8e:1f2e:1831:4e4:57328] [EJ5kLjpURmy+1U3o] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=EJ5kLjpURmy+1U3o, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@711df758])
+[000.105][18:23:15.589][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:2a8e:1f2e:1831:4e4:57328] [EJ5kLjpURmy+1U3o] Sending STUN request, attempt 1/7
+[000.155][18:23:15.639][DEBUG] [O45D973RbArx8pL5] Starting connectivity check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /192.168.50.119:57329 (host)
+[000.156][18:23:15.640][TRACE] [23.16.60.2:51636 <> 192.168.50.119:57329] [O45D973RbArx8pL5] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=O45D973RbArx8pL5, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@7c2074d7])
+[000.156][18:23:15.640][TRACE] [23.16.60.2:51636 <> 192.168.50.119:57329] [O45D973RbArx8pL5] Sending STUN request, attempt 1/7
+[000.185][18:23:15.669][TRACE] [23.16.60.2:51636 <> 192.168.50.119:57329] [O45D973RbArx8pL5] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=O45D973RbArx8pL5, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/192.168.50.111:51636), gg.essential.ice.stun.StunAttribute$MessageIntegrity@335d84f3])
+[000.185][18:23:15.669][DEBUG] [O45D973RbArx8pL5] Connectivity check succeeded: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /192.168.50.119:57329 (host) (28ms)
+[000.186][18:23:15.670][DEBUG] QuicChannel.accept
+[000.196][18:23:15.680][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] [EYbSAWlh+q2MnqbU] Received STUN Binding request.
+[000.208][18:23:15.692][DEBUG] [5doZY98EU7m2VD92] Starting connectivity check: /fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 -> /fe80:0:0:0:4987:caad:2c6b:a92f:57330 (host)
+[000.210][18:23:15.694][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:4987:caad:2c6b:a92f:57330] [5doZY98EU7m2VD92] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=5doZY98EU7m2VD92, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@204352f5])
+[000.210][18:23:15.694][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:4987:caad:2c6b:a92f:57330] [5doZY98EU7m2VD92] Sending STUN request, attempt 1/7
+[000.257][18:23:15.741][DEBUG] [42b8gP85mpaM5+67] Starting connectivity check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /172.22.208.1:57331 (host)
+[000.257][18:23:15.741][TRACE] [23.16.60.2:51636 <> 172.22.208.1:57331] [42b8gP85mpaM5+67] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=42b8gP85mpaM5+67, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@21d955c0])
+[000.257][18:23:15.741][TRACE] [23.16.60.2:51636 <> 172.22.208.1:57331] [42b8gP85mpaM5+67] Sending STUN request, attempt 1/7
+[000.309][18:23:15.793][DEBUG] [WmH2QyBcLOHNCYgP] Starting connectivity check: /fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 -> /fe80:0:0:0:9840:84d4:5a6a:17ab:51070 (host)
+[000.309][18:23:15.793][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:9840:84d4:5a6a:17ab:51070] [WmH2QyBcLOHNCYgP] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=WmH2QyBcLOHNCYgP, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@7137db9d])
+[000.309][18:23:15.793][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:9840:84d4:5a6a:17ab:51070] [WmH2QyBcLOHNCYgP] Sending STUN request, attempt 1/7
+[000.319][18:23:15.803][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 1200 bytes of data with checksum cLrYHoMzoL/oGU1XuCB5dkObeTKwuje8nlkRY1fkNCo=
+[000.319][18:23:15.803][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 88 bytes of data with checksum Aum0rZftv5Gy6xy8sSbQ7zI/72DMLhg0x74kaP7C1gg=
+[000.325][18:23:15.809][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 1200 bytes of data with checksum 4hzlXfS03HrGQUo8oX4fU4XCcU3BxMkF/w/3nXE4BdA=
+[000.332][18:23:15.816][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum ydjcTca+4hHdrBhpsv2HJiTze+AfPmNY+GBCsEyCRpk=
+[000.332][18:23:15.816][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 229 bytes of data with checksum OAi53qMrtSdVaxjxmT1u+RUaByIB/5D7hNXOeXNOXoc=
+[000.341][18:23:15.825][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 1200 bytes of data with checksum OzU4uG/AP9KLaW3I+4xQU3dts9AIIcCJUq3Bx08v0fc=
+[000.341][18:23:15.825][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 111 bytes of data with checksum jMFe3Pjo98CZqTEzdhXvDlZuiln4NULybrLo6Ml02vE=
+[000.341][18:23:15.825][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 439 bytes of data with checksum 8mnfwoK8qPoec+ldGrPzC8IjEjq6zifANoztEz4UaKw=
+[000.351][18:23:15.835][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum /mVid0T27GyCCDg/vfOu91X43/CMxaUuTucLNyjKl1E=
+[000.359][18:23:15.843][DEBUG] [x1pVGYF4b7dok+Mx] Starting connectivity check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /172.24.128.1:57163 (host)
+[000.359][18:23:15.843][TRACE] [23.16.60.2:51636 <> 172.24.128.1:57163] [x1pVGYF4b7dok+Mx] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=x1pVGYF4b7dok+Mx, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@5db128ee])
+[000.359][18:23:15.843][TRACE] [23.16.60.2:51636 <> 172.24.128.1:57163] [x1pVGYF4b7dok+Mx] Sending STUN request, attempt 1/7
+[000.367][18:23:15.851][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 106 bytes of data with checksum 7XuV/0UOoCoPHp3BNeV+hG8gfqVSOlrnZtoyq1QleGk=
+[000.367][18:23:15.851][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 54 bytes of data with checksum baF+vxzCMBBC6MHVYMj4cIyyY5t9zHmBvUBsmKDiJ8E=
+[000.368][18:23:15.852][DEBUG] QuicChannel.onOpen
+[000.368][18:23:15.852][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 44 bytes of data with checksum OSu9c/KUex3kx0XpN+jAM+LkDmariLpsEMna30xvSSk=
+[000.368][18:23:15.852][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 43 bytes of data with checksum nSfWtZTpwNlCWXTzKUavQJ5Y5No/S04n5wvzCUIaTFE=
+[000.382][18:23:15.866][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 216 bytes of data with checksum 5x36LCDGSSqFX8vRX1YX9ziQE3v8QGVwjM8stC+/Fow=
+[000.410][18:23:15.894][DEBUG] [K4bBz48x5LDyW5Xw] Starting connectivity check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.410][18:23:15.894][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 23.16.60.2:57329] [K4bBz48x5LDyW5Xw] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=K4bBz48x5LDyW5Xw, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@37c43361])
+[000.410][18:23:15.894][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 23.16.60.2:57329] [K4bBz48x5LDyW5Xw] Sending STUN request, attempt 1/7
+[000.423][18:23:15.907][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum Pw1jDT3U42UvdsQhChNmSNare1PfJ7WewAiqlxTJ3Dc=
+[000.463][18:23:15.947][DEBUG] [Pkn7J8zH3Plq4Ltj] Starting connectivity check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.463][18:23:15.947][TRACE] [23.16.60.2:51636 <> 15.204.74.255:61511] [Pkn7J8zH3Plq4Ltj] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=Pkn7J8zH3Plq4Ltj, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@68e5c084])
+[000.463][18:23:15.947][TRACE] [23.16.60.2:51636 <> 15.204.74.255:61511] [Pkn7J8zH3Plq4Ltj] Sending STUN request, attempt 1/7
+[000.489][18:23:15.973][TRACE] [23.16.60.2:51636 <> 15.204.74.255:61511] [Pkn7J8zH3Plq4Ltj] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=Pkn7J8zH3Plq4Ltj, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/23.16.60.2:51636), gg.essential.ice.stun.StunAttribute$MessageIntegrity@67a3a1a9])
+[000.489][18:23:15.973][DEBUG] [Pkn7J8zH3Plq4Ltj] Connectivity check succeeded: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay) (26ms)
+[000.514][18:23:15.998][DEBUG] [puKnj0TRRnDSvNAK] Starting connectivity check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.514][18:23:15.998][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.204.74.255:61511] [puKnj0TRRnDSvNAK] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=puKnj0TRRnDSvNAK, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1ef38c88])
+[000.514][18:23:15.998][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.204.74.255:61511] [puKnj0TRRnDSvNAK] Sending STUN request, attempt 1/7
+[000.517][18:23:16.001][TRACE] [192.168.50.111:51636 <> 15.204.74.255:61511] [fNZf3voI4T3oy7rU] Received STUN Binding request.
+[000.555][18:23:16.039][TRACE] [23.16.60.2:51636 <> 23.16.60.2:57329] [mL4EB0bUHf+7MChn] Sending STUN request, attempt 2/7
+[000.566][18:23:16.050][DEBUG] [Wn4XPPgFbkko3wf9] Starting connectivity check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.566][18:23:16.050][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 23.16.60.2:57329] [Wn4XPPgFbkko3wf9] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=Wn4XPPgFbkko3wf9, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@6dde7991])
+[000.566][18:23:16.050][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 23.16.60.2:57329] [Wn4XPPgFbkko3wf9] Sending STUN request, attempt 1/7
+[000.571][18:23:16.055][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 23.16.60.2:57329] [K4bBz48x5LDyW5Xw] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=K4bBz48x5LDyW5Xw, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/135.148.232.62:65085), gg.essential.ice.stun.StunAttribute$MessageIntegrity@6b2f8229])
+[000.571][18:23:16.055][DEBUG] [K4bBz48x5LDyW5Xw] Connectivity check succeeded: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx) (160ms)
+[000.606][18:23:16.090][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:2a8e:1f2e:1831:4e4:57328] [EJ5kLjpURmy+1U3o] Sending STUN request, attempt 2/7
+[000.617][18:23:16.101][DEBUG] [XJE0NwwhI0LRtmVw] Starting connectivity check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[000.617][18:23:16.101][TRACE] [23.16.60.2:51636 <> 51.77.108.227:51047] [XJE0NwwhI0LRtmVw] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=XJE0NwwhI0LRtmVw, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@863905b])
+[000.617][18:23:16.101][TRACE] [23.16.60.2:51636 <> 51.77.108.227:51047] [XJE0NwwhI0LRtmVw] Sending STUN request, attempt 1/7
+[000.668][18:23:16.152][DEBUG] [p5gpjWmMLpXCN6wL] Starting connectivity check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.668][18:23:16.152][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.204.74.255:61511] [p5gpjWmMLpXCN6wL] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=p5gpjWmMLpXCN6wL, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1350314e])
+[000.668][18:23:16.152][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.204.74.255:61511] [p5gpjWmMLpXCN6wL] Sending STUN request, attempt 1/7
+[000.675][18:23:16.159][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.204.74.255:61511] [puKnj0TRRnDSvNAK] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=puKnj0TRRnDSvNAK, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/135.148.232.62:65085), gg.essential.ice.stun.StunAttribute$MessageIntegrity@59daa10f])
+[000.675][18:23:16.159][DEBUG] [puKnj0TRRnDSvNAK] Connectivity check succeeded: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay) (160ms)
+[000.685][18:23:16.169][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.204.74.255:61511] [KHt0+9HYvEDw++Vz] Received STUN Binding request.
+[000.689][18:23:16.173][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 307 bytes of data with checksum wb4IDGDIa8Cecrkv2nUZ7Iz43/L+H+L/8zkYVwDfFZI=
+[000.690][18:23:16.174][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 43 bytes of data with checksum ZQtO9dVWeT+gzX6CFHAao9BV5UJy49261PkxoxTthwo=
+[000.711][18:23:16.195][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:4987:caad:2c6b:a92f:57330] [5doZY98EU7m2VD92] Sending STUN request, attempt 2/7
+[000.719][18:23:16.203][DEBUG] [g/0RfH+b80neAy06] Starting connectivity check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[000.719][18:23:16.203][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 51.77.108.227:51047] [g/0RfH+b80neAy06] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=g/0RfH+b80neAy06, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@24a0a439])
+[000.719][18:23:16.203][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 51.77.108.227:51047] [g/0RfH+b80neAy06] Sending STUN request, attempt 1/7
+[000.759][18:23:16.243][TRACE] [23.16.60.2:51636 <> 172.22.208.1:57331] [42b8gP85mpaM5+67] Sending STUN request, attempt 2/7
+[000.769][18:23:16.253][DEBUG] [H4xvSLqnniopor7W] Starting connectivity check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[000.770][18:23:16.254][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 51.77.108.227:51047] [H4xvSLqnniopor7W] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=H4xvSLqnniopor7W, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@6038d307])
+[000.770][18:23:16.254][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 51.77.108.227:51047] [H4xvSLqnniopor7W] Sending STUN request, attempt 1/7
+[000.810][18:23:16.294][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:9840:84d4:5a6a:17ab:51070] [WmH2QyBcLOHNCYgP] Sending STUN request, attempt 2/7
+[000.820][18:23:16.304][DEBUG] [FmsxhiIJ3pJd+uLq] Starting connectivity check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[000.820][18:23:16.304][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 23.16.60.2:57329] [FmsxhiIJ3pJd+uLq] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=FmsxhiIJ3pJd+uLq, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1d76e602])
+[000.820][18:23:16.304][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 23.16.60.2:57329] [FmsxhiIJ3pJd+uLq] Sending STUN request, attempt 1/7
+[000.837][18:23:16.321][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 23.16.60.2:57329] [l+Sppa5acOJg6HYC] Received STUN Binding request.
+[000.859][18:23:16.343][TRACE] [23.16.60.2:51636 <> 172.24.128.1:57163] [x1pVGYF4b7dok+Mx] Sending STUN request, attempt 2/7
+[000.867][18:23:16.351][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 23.16.60.2:57329] [Wn4XPPgFbkko3wf9] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=Wn4XPPgFbkko3wf9, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/51.77.108.227:54054), gg.essential.ice.stun.StunAttribute$MessageIntegrity@7b85c642])
+[000.868][18:23:16.352][DEBUG] [Wn4XPPgFbkko3wf9] Connectivity check succeeded: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx) (301ms)
+[000.871][18:23:16.355][DEBUG] [iOlJ4hb5HCehh60n] Starting connectivity check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[000.871][18:23:16.355][TRACE] [23.16.60.2:51636 <> 15.235.143.176:52007] [iOlJ4hb5HCehh60n] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=iOlJ4hb5HCehh60n, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1518e72])
+[000.871][18:23:16.355][TRACE] [23.16.60.2:51636 <> 15.235.143.176:52007] [iOlJ4hb5HCehh60n] Sending STUN request, attempt 1/7
+[000.921][18:23:16.405][TRACE] [23.16.60.2:51636 <> 51.77.108.227:51047] [XJE0NwwhI0LRtmVw] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=XJE0NwwhI0LRtmVw, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/23.16.60.2:51636), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1fdd6d38])
+[000.922][18:23:16.406][DEBUG] [XJE0NwwhI0LRtmVw] Connectivity check succeeded: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay) (303ms)
+[000.923][18:23:16.407][DEBUG] [BYaddug62sE16Rd7] Starting connectivity check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[000.923][18:23:16.407][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.204.74.255:61511] [BYaddug62sE16Rd7] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=BYaddug62sE16Rd7, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@3ec259eb])
+[000.923][18:23:16.407][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.204.74.255:61511] [BYaddug62sE16Rd7] Sending STUN request, attempt 1/7
+[000.932][18:23:16.416][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 48 bytes of data with checksum jUA5Xmo4UGyj70IjgyMI9q5MnPdvcHiOeF37uX/CspE=
+[000.932][18:23:16.416][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 93 bytes of data with checksum yFZgQ8cdd2bMunBgXaTnmiNAY3qVNboIcOJ5s67CO+s=
+[000.945][18:23:16.429][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum /H+BW1hpX5EXUWjEv1DUfc113SCAUYrwkWe9Fd2HMLQ=
+[000.952][18:23:16.436][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 1nr2AhlmgMhTuk0JFVImjXH7w4k95lWMZKi6dikJhTc=
+[000.962][18:23:16.446][TRACE] [192.168.50.111:51636 <> 51.77.108.227:51047] [cSfNy93DohSvHaR7] Received STUN Binding request.
+[000.969][18:23:16.453][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.204.74.255:61511] [p5gpjWmMLpXCN6wL] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=p5gpjWmMLpXCN6wL, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/51.77.108.227:54054), gg.essential.ice.stun.StunAttribute$MessageIntegrity@5e57ee82])
+[000.969][18:23:16.453][DEBUG] [p5gpjWmMLpXCN6wL] Connectivity check succeeded: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay) (301ms)
+[000.971][18:23:16.455][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 786 bytes of data with checksum cV67SrQz9pZcNDN0uPJp5Nz3pf4H8BIVn04/ZQgT+7k=
+[000.971][18:23:16.455][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 60 bytes of data with checksum R+7t93+hAqfWp62tHWIuNJaduGP8H6kN4u4yeclzFsc=
+[000.974][18:23:16.458][DEBUG] [ldrlftlcdC5WigrG] Starting connectivity check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[000.974][18:23:16.458][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.235.143.176:52007] [ldrlftlcdC5WigrG] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=ldrlftlcdC5WigrG, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@394fa5d])
+[000.974][18:23:16.458][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.235.143.176:52007] [ldrlftlcdC5WigrG] Sending STUN request, attempt 1/7
+[000.979][18:23:16.463][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum VRkLtaBt1vOj/TjjijjHm3FAz83C28cs+ALAew/sOfY=
+[000.979][18:23:16.463][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum d/iSa3sTeRAWxYG4uIDBEqxhyfkUMglGn3oWRHX1H9o=
+[000.981][18:23:16.465][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 784 bytes of data with checksum AAAPpBaaX2Ta7ojmAmlDDDhuF6nSa497MmQ+hmHKMXs=
+[000.981][18:23:16.465][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 56 bytes of data with checksum oakW4E/dDwrXPVbhtathTfREW6y3O9Mb2vlJ8NNpUyM=
+[000.981][18:23:16.465][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 43 bytes of data with checksum kwedLkGH04OC9kVwORLTp+BHL2/YAA4sW6K3Wn1QcNw=
+[000.981][18:23:16.465][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 43 bytes of data with checksum IocCO30adwoDSLhJyFZSMbSmFiacmQE68JPwN0IlWuA=
+[001.015][18:23:16.499][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.204.74.255:61511] [jSHx+Zod9njnqn2z] Received STUN Binding request.
+[001.025][18:23:16.509][DEBUG] [1TRHhyGgsfM0d5Fb] Starting connectivity check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[001.025][18:23:16.509][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 51.77.108.227:51047] [1TRHhyGgsfM0d5Fb] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=1TRHhyGgsfM0d5Fb, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@3cc71c3e])
+[001.025][18:23:16.509][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 51.77.108.227:51047] [1TRHhyGgsfM0d5Fb] Sending STUN request, attempt 1/7
+[001.028][18:23:16.512][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 51.77.108.227:51047] [g/0RfH+b80neAy06] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=g/0RfH+b80neAy06, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/135.148.232.62:65085), gg.essential.ice.stun.StunAttribute$MessageIntegrity@101d3e3e])
+[001.028][18:23:16.512][DEBUG] [g/0RfH+b80neAy06] Connectivity check succeeded: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay) (308ms)
+[001.038][18:23:16.522][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 1200 bytes of data with checksum cZe2kFuYzqKHrnZrbTpNqt5xipFrIrC8jjP+G1Zfo4o=
+[001.038][18:23:16.522][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 1200 bytes of data with checksum 1DDCnNxfTc6aqbDHujbby/AcaiFuUNSBY7GNX2ZyrbY=
+[001.038][18:23:16.522][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 53 bytes of data with checksum BB8qjAQySaeZ/BDTknOjfRy9cYc+SxCfDdDC/3xXeeY=
+[001.038][18:23:16.522][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 43 bytes of data with checksum BdQzNT/aNmz5hpJ25xJSSWMJopHOC28ZzYy2aBO03cg=
+[001.038][18:23:16.522][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 43 bytes of data with checksum xr3TR6qFw73Tr9oIRLeSPIjMwjZ9atEef6FRxoEA4nw=
+[001.038][18:23:16.522][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 43 bytes of data with checksum Wfyi2a7MJzeKuVnz85Ffog7HFD8Pb4E+Llg4m8oW4h0=
+[001.040][18:23:16.524][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 8heTsBoAfIkZpfNGt1hSKZshtDMYLRNfEEhDHeNAgEI=
+[001.040][18:23:16.524][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum LeFq8FxEYmEDgvHonDO8PvJeLi/IGQwkEC1HgwQnA1M=
+[001.040][18:23:16.524][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 53 bytes of data with checksum WVaMDwaXig5LqEchRV/GRTvYa3sK8o8oFv0rikhvQvY=
+[001.064][18:23:16.548][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 51.77.108.227:51047] [d0hQovPTy8LfI6w5] Received STUN Binding request.
+[001.072][18:23:16.556][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 51.77.108.227:51047] [H4xvSLqnniopor7W] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=H4xvSLqnniopor7W, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/51.77.108.227:54054), gg.essential.ice.stun.StunAttribute$MessageIntegrity@7275119b])
+[001.072][18:23:16.556][DEBUG] [H4xvSLqnniopor7W] Connectivity check succeeded: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay) (302ms)
+[001.076][18:23:16.560][DEBUG] [RmQr4L8WYXbLSBu+] Starting connectivity check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[001.076][18:23:16.560][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.235.143.176:52007] [RmQr4L8WYXbLSBu+] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=RmQr4L8WYXbLSBu+, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@5a820657])
+[001.076][18:23:16.560][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.235.143.176:52007] [RmQr4L8WYXbLSBu+] Sending STUN request, attempt 1/7
+[001.083][18:23:16.567][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum QP5jTl3uJZIZdpy4C6vCxc3xR/d6jtBmi166GIKEcKQ=
+[001.083][18:23:16.567][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum sax9D8vTU3/XsgWgeQm/bBxHonAOrFyZaZAZ1ECyNO4=
+[001.085][18:23:16.569][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum kcM+37ySw3kWVxQTX4ljdF9Lr3e+L215VWOlTusPNaA=
+[001.086][18:23:16.570][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 56 bytes of data with checksum 03znGKtennrMM+kTvV5CAdKqhRRgezY06pAcL371T/g=
+[001.086][18:23:16.570][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 43 bytes of data with checksum klr1M5Kws+BXPTNBj96fTNxSWfsIEDyUph2kdUyRaj4=
+[001.089][18:23:16.573][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum GDILkv0MaStXgaiqnAISALl8rFTN9NMtX2oSX+PHM8c=
+[001.089][18:23:16.573][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 907 bytes of data with checksum h5XoBEsnp8JF9y3jK6CXi0hGlO2LVWBfXfsFBJW3gKE=
+[001.089][18:23:16.573][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum p3cfir3PQQJFdrbAwjW4rsgaEJKt5bjk+GBHp3+pHRs=
+[001.089][18:23:16.573][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 408 bytes of data with checksum 8f2zrz8ITbTifMmPYetYuuO3EhDihzdGe2cXJT01gjU=
+[001.089][18:23:16.573][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 335 bytes of data with checksum uGBMaKgyrQJYnRfa63nqR3VNJ+CZ3ywQXzvs8n2DZ6k=
+[001.089][18:23:16.573][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 216 bytes of data with checksum IHwItrAYScNDI/Xl9GVL6IxZiz/rz66dzoy30WCdMAA=
+[001.089][18:23:16.573][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 211 bytes of data with checksum xzPREwfDi/1+olRSWtMvklx97BLm0i14TE8vrlIQg4g=
+[001.089][18:23:16.573][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 252 bytes of data with checksum 7Uo5R+hHwkuLSnQmFzR7Yere3ZNgCWbS6iMoEpLQpDA=
+[001.091][18:23:16.575][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum X2lqaD+h40WWvGb4ievdHJJD6Kz3A+/kNN6WaQJAY0w=
+[001.091][18:23:16.575][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum b2NYmFOY03Vcy3sa06e8HzaAm+4j1EVjCJIdr8Mbx+0=
+[001.091][18:23:16.575][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 8h+M564QMXfhRVvRSK8Rt1rppabj8bO46vORUNS6JL8=
+[001.091][18:23:16.575][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 57HZyZW4S91rGaNRgIW6rbYSCgvxHMBzpHgV46vcJI0=
+[001.091][18:23:16.575][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum tfqHveGHL22jkzHPVK7Wx8InA1VLAewB4xtzf9hL0sU=
+[001.091][18:23:16.575][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum jmYDnCa+jm9u4CpdxrvC8BYTIuVdaqihNhJ21Fjtrfk=
+[001.091][18:23:16.575][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 71 bytes of data with checksum 6qiQAy+Q/MM7e8/Jh3cVHO516/A5aC1mtFXHi17oMEw=
+[001.112][18:23:16.596][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 51.77.108.227:51047] [0vBOPfb3d9mXhg67] Received STUN Binding request.
+[001.127][18:23:16.611][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum wkHdqN103FIlWXTy9wNmibXgp613fsoMEP6lYabCKdo=
+[001.127][18:23:16.611][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum zEWOzzWTdxI7Yx/CF7Vp4LDRaBy40EUDnBJjyvj72cw=
+[001.127][18:23:16.611][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum gt/0X/CwAcrxaepBJM2kC56Ay44ef014zGz4gOrF8cI=
+[001.127][18:23:16.611][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum CQNAMuxhAtbJLm0357upCtnAq3xPiM02MO2/IbonpPE=
+[001.127][18:23:16.611][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum p9vBOO91IzQLWfRNTGEce3sO3yCLZf+wqNoZ8Gp9T4Y=
+[001.128][18:23:16.612][DEBUG] [x8euYAUa6N/jswae] Starting connectivity check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.235.143.176:52007] [x8euYAUa6N/jswae] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=x8euYAUa6N/jswae, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@b8cf514])
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.235.143.176:52007] [x8euYAUa6N/jswae] Sending STUN request, attempt 1/7
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum ts/gK9F2zmdHEVwJ5h0WXlaAX34CziZYwZNN3AzbWPA=
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum HsUIfFVgVuwN+YiW2wid42GQe1vXvQMBrDpR0hfjE2U=
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 907 bytes of data with checksum HOX2Tv12LWRj1zG8tsd3OzEAKjh1vOhi1LlXID9oCUY=
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum dnF6RVLpqU89igr+aIeQmZuvgEntveWkZcGRM8+c53c=
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum YowJ0aeThrZjPuTI1EbtH04/nlZXxQL7HJlSoFj+QyA=
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 7Dx6N52JOSTCy9seLICRyLcajYewqVVlpZkl5h5Jp5k=
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 408 bytes of data with checksum 9yIfuQYnqK1unSuRJE8r8BkJInUv2NqbG4QDaN97cSY=
+[001.128][18:23:16.612][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 335 bytes of data with checksum DLhZWCjoGaUcD598GHTsuVv5nJPlP9kxLSAQCRban28=
+[001.162][18:23:16.646][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 23.16.60.2:57329] [g4xxHUQ84uDnvjLE] Received STUN Binding request.
+[001.163][18:23:16.647][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 23.16.60.2:57329] [FmsxhiIJ3pJd+uLq] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=FmsxhiIJ3pJd+uLq, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/15.235.143.176:55978), gg.essential.ice.stun.StunAttribute$MessageIntegrity@551fb259])
+[001.163][18:23:16.647][DEBUG] [FmsxhiIJ3pJd+uLq] Connectivity check succeeded: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx) (343ms)
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum jlsSGP4WamSelUZ5cu8AYy+L/TuzUPvsGuIhMypfrxw=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 8ByQNB3heMy/MV0pLO0XRPPa1N79LCZg2JXMejbdnNw=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum qgpDYEZhaZKioSmK7klhnsMlXQsOJH0aXUXLwaLoS10=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum QWCY+vHwoAG4IH1dFXjrrP0uWKUpZQaFDDi4sXaJWUc=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum Nj8kGZ7gWxdWdzIjp8qM+UYgjQC7K2xtp1TN9Q0sfYc=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum yyUuO0czmP6LH3Z5wUb6PSzj4uMZ8/yzZkpZqF6RH3k=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum beMKaL4xzmhE05wu8N1rPDl+d1m7PcuAsXMgL3XDMK0=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum OLeHFxYnHSwi6FvDDf+lMOZ317vSuF2FrK7ygWbIoE4=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 9kUjcY0OU/a8tkhETc95wpENH8D/XLjavY885Hu1vrY=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum BJcP2SA+LEbVbQrxfQwofSeVsThhp2NokVhSi4OTiWM=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum Ku2tmmGqVEhOeh75+9L37IcjnjTiCGcYRp56ggVW2oU=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum QmnYB3uivpzmGANEFxwfc09rekNLsvIaky3o9Ij2sYc=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum ojlxB52F4Al2tkhLhjC8ULK7b1oGban7/Gq42zdOo7c=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 4/b3xHfuRkfBZEpdYmSkE0SsalonxCKRcfeJYKc5aDE=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 4WUfGa22V1K0YuHgBxm6bHjGFFwO9F+ei0+wLkHy9wE=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum mX9F+3HqaxH3qwDkrSUCzXE2ZXWq+ppevW0ZEsO0SI8=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum k9N4UL4ZQAE/1rX9PdMLrd33Kz23D6/i5hzgUSwCglg=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum NQaZ/bb630Nc7qke1fkxiKtRDapVWHesRKDh6oJ9bRQ=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 216 bytes of data with checksum PiLTO+vo4poim9cd+PcAApCxFtEUUUJK6hn00YjuVSY=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 211 bytes of data with checksum Hc4uGjx2LqCqDHw1NGCaD1P6cLhM+oZn8XBB+n42r60=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 252 bytes of data with checksum rmAgVHqa1hxHfS88jWdXbgGLyP7hiXRUh+F6m1AYq6w=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 9BJeDx8kliLih0N/LyWpdlW8TDAk0MsYQFfRKeESA28=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum g+xf1KJojdYHCTND5IuEFJWeQ6SXWVuYhQ5Paqdwa1M=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum wMmfYFtJgDxVqUDsl2gzwaOB5dlAqOE2+3o7Z9V4zHk=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum XCrlstif8lzehHkGJ53YbbdF9aeU1mMjnh+iRjGFDOY=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum /RKUH3wyZrsNz2UXagDFDND23KMLBs9QxagBGSGdYmo=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum l008G1RbxpSXB+AJ16YRmazQAalHznqVxxhnEhRJ2sA=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum C3RobFn589Rc7A569SOrLUbdAPo7rKH8O71MQUxYUS4=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum lLl5hw6WDcTkUbvP2SLNyOx9TOS+grCQE6BNj7WXoE0=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 5eM7AcdJwnOf+uelnmufhUaKKqW8f25xNrt8MoFgOyQ=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum L0chTAnx17PwNC+DKSFNmmok2iX6/pOSdJeWaM9XKN8=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 0NOKQw5q8MXYYRzfmJOSIYYlT+GbUZjttsuWzMkgstM=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum /F4PD7qMAv9/44sw5gce5/PndmBkIXnDIZ/ZDaqtA/s=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum KwHIuqPK/+ErZiX6Ek23o0Q6siRnWld9RpOu99bXtaE=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 71 bytes of data with checksum okgWyT3HsjH0kDn52YULUpmZEPTX6wdVf0uDLe5/5xE=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 7K+WarvAYoPpYWeaCVXCq85OynbT6hhsJImwyj3db5E=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum JruB+yCilAuUoaanIWwK7t0NERPxrqru2IoCcEAginY=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 0z7N4d6D4A0ug6o0Y6E7LYniSqDwnKDA7YsOiWBwV1k=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum aBvOe899zeiBWzf9tDKV53PgS6uXx9fUvMDjzRJ0LMI=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 907 bytes of data with checksum 6DPbC+zlMyP/LnFDBYhnvwIBHDAwpm7r1t7AySUIQW0=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum JyuCHVN5QF1yslq6CNe2MDJ8XlSqgj4pPnq0LZ27fYo=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum uh4B7yawPQrqcuop3phCDz133/ZbD6euXw35DPtrCec=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 3XV6dLs1sURcrwVEgEFIv6NSZmayLHb2lfJ38SVOFM8=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum AhUC1HLARc6CLfsmJckar+TK89Dy4elrJmoEh6lUjxc=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum NqEDeh9h/1DKyd9u/WtPbEWxHjED11ZeuRSfxu1ioZI=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum smgkhdHEdP6gurpbAPjb4EFHefVq8xiF8TYYlCUCJ+c=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 0UV9Hj2wiIctrlacHKYJ/TOT1Krxd88LhPl5GvhaJfg=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 408 bytes of data with checksum POjjX5NUrgdtNwqoaEYUUdUq+wHDDSeBn2cQEemZSU4=
+[001.178][18:23:16.662][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 335 bytes of data with checksum 71+taZPX+YF3thqq2v3fm6EqPqb5HTDLplXjY4/KK6c=
+[001.179][18:23:16.663][DEBUG] [3lafoCs1RzgtrSRn] Starting connectivity check: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[001.179][18:23:16.663][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 23.16.60.2:57329] [3lafoCs1RzgtrSRn] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=3lafoCs1RzgtrSRn, attributes=[Priority(value=1862270207), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@f4488a4])
+[001.179][18:23:16.663][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 23.16.60.2:57329] [3lafoCs1RzgtrSRn] Sending STUN request, attempt 1/7
+[001.190][18:23:16.674][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum DpAe8BA8O7IhvHGtsiMr3LonYzLhCsVCEefeJgcdLj4=
+[001.190][18:23:16.674][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum jROay+Ox/JRLg6XgdAhN78gfwkvW47la/S2sN9uxrGw=
+[001.190][18:23:16.674][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 216 bytes of data with checksum M4ODoqijXFCjT6BlCeCkrdh5ottPWg7XrAgm/TaH2ME=
+[001.190][18:23:16.674][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 211 bytes of data with checksum Dy++nRq4+/9VnxSJxV0rw+WW5MkTmC7lRqgsSqgjwEI=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 6qrVral3R4iihh2ZfWi7mCvFAxdeP56lPlHvXuI5IPQ=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum OzpcpEXlYKirl+AhaQuh+a87gyEDBA2YzBrRGGZRqLk=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum /y/3Y5/NX7jY6KwTc2LhD+zd4hKbcWJpgWwBF3tDSzM=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum ledRvLpP4z5sFJ74dVqp7e6JS+yfqu/sscgpdAB415g=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 252 bytes of data with checksum 7VGyuLI5fPdfCIvzb5e1XZhAC+EAdfMBi0CIRdqhwM4=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum JQ5bX/upTEiiHHdFrDOyKt4jQHmkCWTNUmQUp9SW3Hc=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum aG53gMAuCUzfzmOZLt8oQXcd0hK9zYThimUzPCZ4Md4=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum tR3zHk1qtV8rqbJRWQjM+yqKbKR76C/ab82dCK2AWDA=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum Ram75S4dSvkesPh6e3r50H4s3SE0rcnzXfZFqGbXOnc=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum ADKqeelQ0qsbo0f/oXktdH1nAnYRbvSUFY/bR9SXB8M=
+[001.192][18:23:16.676][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum gjZydnq0qelIwkt7e6ottLdxoGsOYqWrep0EOrwsKm0=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum U1pYh59VzkVWLLD3mHZSFUcEGRzzg0IyxFuxQCLm0hs=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum KjLIOK4+GjWftp0i3UKBWkKYclEYuEAa9NDUYqfUeeI=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum j9e38o9Y06jnMIspvbNT3ZeEwklwVk/NEJh4EpQAslY=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 8qTU8Vidq1eMxbSu5VJ1CwhO9uSpjpPHi+tTWacOVpI=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 0/cTgADfMbSWN7t3YK2HmfbcntI3MsU8Wb5R90GEb2s=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum j5PWq1xqREq2V9kvp9/ms9iVrdOTBHiv7SxRuUa76Nc=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 3LcJ/wTwgMCQ3uL7a2zOPbxpon4xkA5wEiP0/pJ9g/4=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum SnvnqG2e7/96RSLMrPDbBInF7HZDoT4H8l+Mt8ffyFk=
+[001.210][18:23:16.694][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum +e6cYXotDql+f75I7lHkEOcUCKkkc8/XAiiIqNhRK3Q=
+[001.212][18:23:16.696][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum p2e4H8k+Vaivzrsn1OikrG5tUudIJPY07+47kt9vzwI=
+[001.212][18:23:16.696][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum UBLH03ZzRjzenaDrr+Zx+UIAenqpZ/SFY9il+1Wfk98=
+[001.212][18:23:16.696][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum m2GPH8ZRAHxagk0VYgtZDRJgz1WxVDXAP8twJiu70Qg=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum GDjRs0XwwtgAt0uwzdjHYrnaBWlJN6WG98Q9Tmgqu0g=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum ToSoh+LQUT3RqeEN5MK4e/nFJXheyFxawlMX5GSfhwQ=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 18OXtdrOLgNHnHvYSblwHDJEDQfWtodDwW+pNlIHvkQ=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 4IoLPhcpqafWQxiLD6puPeQhc51eSmxsUpGlaXXUeog=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum FEEhbxEmJU/bil1GMDq6RjYx2eZ/H0WK4LV1fpomlcw=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 21R3Zi0fa5mVS8uX1P3UVuFq2NGaz3bnT8hCSf5wUZs=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum BvWhR0RtVKuZtx1h3CAZDsLxIRuKJ4gak9PiGWXK1Bw=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 0CT8/N6H3uthpA3aIh1fBG+l+UHTjMUhna8qGBb5TdI=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 5ydE/5FJKJkU2gTzxXZyYhGsBfPIeGucOgwwECRBAok=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum IrQ8LbwjnEMkxqUFr+bkGsjgxqLGYSYuUp6bm3brsak=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 2Ss9N9h4vxmdSnFkkRbuP84c3pnkq0VnBMVXbPSY9eM=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum KvzZXJHSJI+h3eBXXuMhi2gSVqSk8mJoFIN3JCu2NV4=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum EiNM2LnYPqyQxsHXXnJWzaOp18BGha5a94WjUBdikfM=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum VI3Pvf2miAdD/Ea5uONf6CkojiEKjHn8Vxh67eycVAY=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum O7soyxYZHAhRVzW3N0KAjp+QblSfwASHCzG47Nlfww4=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum MbiVEoVUqM4+ht9c5VbdQ96BfyhKVZMPDtZSLJULp2g=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum NFsuKbrppwCAlhLhXI2xkuJ53xIOx5irUjYldtffTm4=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum g/GjqcQXM6/yywwCGSbR5JhvXZHtFIKaSIhU7qSQTVY=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 9P8abJfuH8m8yxQfAyH2eTsy4/18nI3CrOJtyeL2iTI=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum VYe8NA6lhQTkMa6XuzXJ1s3ZCh1gfIsRIIwZWOwc2OI=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum OzMclYGiuJYOMTtcsiv7/b0nIxzUYEZ8MDtG1e2u8cc=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 71 bytes of data with checksum bmd36sSJcNMKelbsWYg2xQdW0QQggOUqFR3hacZDX9g=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum jDoPutttMWQxQXvsIQA3rtQvz5OGi8vqEZMo6oGl9VY=
+[001.216][18:23:16.700][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 540VfU+b9ql82t+P2Ex9a8cxnXEUnDKIWdagQ5Fmv1I=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum 7ivnmVR5bj1wqNX7F/zcSDAsKfoScNqj4KQMQXpMVNA=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum X45Kym7p3IqLOkb2Lo/BMnnrbvcRjeigIP8z19wM6lU=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum oLpfG2S0sm4VRKwGedBH7/lObTui3Vtp7HSGtLyhw1s=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum PXFuOuMn4PBJSvz97Zev1ajz6bqOXGopErwrq054fDA=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 43 bytes of data with checksum wzoUhm0lsXbsNTADnpNbbIFltDw6NvZaaC7iUrSP9Es=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum MR10M1y1TDhyJxio6MGmhjJgLmNmG2kEKs6nNg+ttbA=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum KFG+kY/P6w0+Qa14/bs/m2fTuXYLjskKPJVFirKTW7Q=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 60BKGfLY1qzbLyp+4tEkZJKIRLbcBGkmtJQL7SAHHdg=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum pvVXnQsKrlC/VkGSCs18/prQ/hCi9+ZBJaB0dbyJDz0=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum QnqiaMkq8OG3ZNaCnOzYBobl9c4xIWSbaZsox2MSDts=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum DJoen4TP46HstOqQxfVZZo0KZhu9P0LICxyMPcEc/C4=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 4jsZqHDdSA8KxTk178hjnJnFCaJBKHAvW8CjRdj7ldk=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 1SgpM4hkSbQnnIEsV43l8kQD9ogY7wBSvOa70kd9Nhw=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 907 bytes of data with checksum qTWiVrvhJw8Z7W2VY963ckwxa90F9Qpeq2fMQQW9Ifo=
+[001.217][18:23:16.701][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 4bBwwvywOb8nONy9LE+TAYuMo7RmOLqXbnaRm3qicno=
+[001.218][18:23:16.702][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum m+6RoEQkSjFtB/usmcy91cvN3iKfnU/LUAkBLTw9RXA=
+[001.218][18:23:16.702][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum PVjzdHnGkOnan3mGfdMpTX0AUgmkc0QL2KT/MeZskUE=
+[001.218][18:23:16.702][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum clKTFzD/+eeVGHjsXKijYVMGz37yQ53jKy5vMI2iQZE=
+[001.218][18:23:16.702][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum XJDX/QDreuNilO4W2uCan9Is+y2aeyec0lrR8gyjrOw=
+[001.218][18:23:16.702][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum PYfdfqKLUtFTENsi533obhCKBDlxA79/4yR5Kd6NkNA=
+[001.219][18:23:16.703][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum pW9IPe+Zk5IHyRuIje7TyCUGf94Y2acTXSKfRPL/gWo=
+[001.219][18:23:16.703][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum DlOsK5/Vaon+tkGYcDBjhYJWnMroeXI/p92MzDCLjK4=
+[001.220][18:23:16.704][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum NU5aF4yIbQr8GPxX4ncDUNLiLkn1+s+k5UcMV1b8fxU=
+[001.220][18:23:16.704][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum QE8RLcTtTQUZxay/h76NQns5hJ8fuvbbdwINsna37Dc=
+[001.220][18:23:16.704][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum XgRgEzrO8RxzDIsRVxn0m3HwTP+ITGretjR/XxLq5gs=
+[001.220][18:23:16.704][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum PZwA9ewVhdXQwxr4fc/pP19EhdVFjTu4lKaBSiAu0W4=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum vZTeTImx0wS/E29/sVzEwW0YxgfdcfBOzZAesA8RkE8=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum 26q77Sk0e673GWbE7mNMfECemDLo5NwJ5fpis6QnGAs=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum hnve4ObX4kblrSHib+95FKD+i4Ga6ECQadTQ+jq5Qn8=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum /Ot1gmKvOjSBJ/L5M2KLeeglGAQKYGEL0WuJvEyEBjE=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum VLpC0IgyqNXX4cBUgy9Lyqol2bukZ7G+xQkjGK239CU=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum jd37E2mf69HyWYUdfowNh4dhaqmvxhUj9l8DmNK1hZU=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum yqu5DyssJIqGZNVFdI6yEw9FtYPXdVLHCYOomEZ34bQ=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum GGVXeMjg780bL2tvFO7WVhT9voGQaulllf5pe/EQlTY=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum YWr2gVjxqPL3Wr7pdajwkyizHsUD4k7zDksdUaxN0jg=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 5SP8Dy6LyHt3l4C2VeR+A03bgoxLBG9H8A+p8y8qaGg=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 408 bytes of data with checksum 2ZI9KgcYX2Z7kHWtEbyWt8sHXvYdpXFkJun5tVXHg9A=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 335 bytes of data with checksum q6bCTx+3Bx9yJnYfT3DOplAW8wEOtQoB0mYS0dqcEK8=
+[001.222][18:23:16.706][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 216 bytes of data with checksum tP5VOwTFdLAA9jQWg4bhPv73afJ8IWr9zZET8cjRWyc=
+[001.228][18:23:16.712][TRACE] [23.16.60.2:51636 <> 15.235.143.176:52007] [iOlJ4hb5HCehh60n] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=iOlJ4hb5HCehh60n, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/23.16.60.2:51636), gg.essential.ice.stun.StunAttribute$MessageIntegrity@65e0d291])
+[001.228][18:23:16.712][DEBUG] [iOlJ4hb5HCehh60n] Connectivity check succeeded: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay) (356ms)
+[001.231][18:23:16.715][DEBUG] [HbAni5qO6hRLFc0W] Starting connectivity check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[001.231][18:23:16.715][TRACE] [23.16.60.2:51636 <> 139.99.223.53:62541] [HbAni5qO6hRLFc0W] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=HbAni5qO6hRLFc0W, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@3e7d9396])
+[001.231][18:23:16.715][TRACE] [23.16.60.2:51636 <> 139.99.223.53:62541] [HbAni5qO6hRLFc0W] Sending STUN request, attempt 1/7
+[001.235][18:23:16.719][TRACE] [192.168.50.111:51636 <> 15.235.143.176:52007] [zfPgzoF2RObmPz6D] Received STUN Binding request.
+[001.270][18:23:16.754][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.204.74.255:61511] [BYaddug62sE16Rd7] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=BYaddug62sE16Rd7, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/15.235.143.176:55978), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1aacda86])
+[001.270][18:23:16.754][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum x4IYLN9isiehjrNx2vToWwmLoeM57U9J5AfGPwrEdkQ=
+[001.270][18:23:16.754][DEBUG] [BYaddug62sE16Rd7] Connectivity check succeeded: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay) (347ms)
+[001.270][18:23:16.754][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 211 bytes of data with checksum 2SOdF+0L+SQr4D20FMSjt0+tzkhev5roFZhRSoBOhEU=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum +O/n59vGqXHN5yAnLW1qXjepk0jSHdLTcrrSuS6kJKE=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum OHE1+mw4X1X3G3SzNqhqXHBfMWnF2AXp4xzBRru2Z9k=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum viWcRf0Hk0mt0xAUDEEGk81plyTyhU+eex+TP/552g4=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum ZAkig3MUDBD0uqOpvnRZcFMzez/lCixkBNth5jyJDR0=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum KBIvLqbeYPzDkeS+odzTegS0b6I8mCMTzCpVfTmXwCo=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum KHCURX1Wf6qqhrV8xXIPHsyUCIIBU4HOAcZLAnk8QI4=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum JC4lgdZb8cANXYjQJTcTbgSiDFkASs+duONNMzWx9UE=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum RQ2okcHEDMB9G9riFvMNawP9LxAF14mCDD3Lvy/ufs4=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum r3D8AG0UGNmJQae1SOUJhvqiVCRYXHHVBtWUhvzcpmw=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum Annf7OpbAwpSxYP72oLpSA+6XkYqBc/p/iiIzzkXweE=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 252 bytes of data with checksum CQRLpjO5EGUBnc/8jdb5xPrkNknlGkQgQ+tBcDLi95U=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum I2f8ke2Wt9bJ7e/NIk6aHHuvOhx5Xy7vaFdN4cBdvNQ=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 9lQew5OCsGu/zSfKK2UmEDD/xNex247HIKgGbw/Yncw=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum jUicJegN4uhlEp1vx+dQwU4egX9nhzgbWyuX0NTLmuw=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum OnW9pShom+PsIzq/JyCl+K0xgqrM7j0mubT7XnQdwdI=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum C/vN6KL7A3suUv2/2sFQcUPVvx50vfK3Nnlx7TDPYfs=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 1VFqU/XZUrqLPRQyl6ILNiKmIWLZuVSo+6CuryMz0pk=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum NO58bcAuLxcWUjXY76IlU+MpzZm1rL1dgdmgczj0jW8=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum SiDYA1aDHurJBsCZbRLoyfKnBOiXz7QHizIsVUgqpbs=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum JedRdzkFEvnRtRVy1pOatkjY1zUByG6eBMzo8kq1DVg=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum pgj2haEiiJi0ImpjmC25+nOkwo1VhJo9obAmnMEYPPI=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum W+HHfSQebasSar3IqptURYk4MZ3rl4pUlmV71wm9bVU=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum YFEErDBZI8nImK38Civt7x1F4KJ4bR7D3vdLlabj8FY=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum xwvRgSreOsjShmfoxquewW9FIhLVKBAHbj57JyaXo4g=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum mhiW/7Cp/SdoUxylDNGp/t7qNU/REYY0digbtFsYeGY=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 5e3GGN9EPnCGN+wkmAK68L7jvq343tQP00nZYr/shVA=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum TdYRkKnghMazio4comOP9FFoVM8/QcspUJ7KZGV2FQw=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 6RN5Xsja0CMFeilmKp8d7tzwQujt4WR7o+KKKBeuHuQ=
+[001.272][18:23:16.756][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum JwH6HFcnk64PNseyCf2TTKZhMnin7Vgx7dzfRU8og4Y=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum +e2i43Hkb7qi1+KzRWw8Q/zGxlpF/yJJHPHK/Ey4UnE=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum /+edC1mvgqXaJcP18M1jd+vD/FLoIxopGd43TFyFCi0=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum 61Qm2WSslWBgrQNBq0MXrJuXljyKm2s+EggfZGxE9E0=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum lJQK5oNb7wSckulY5mQNyyTvmflDqUrC0RjuvaPWw3k=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum nsSmJrF53ZmpaJrfoVF/Lwhtn82l+1xa8LKyfLTiI0s=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum mOG3w2xE0uh+irHpbt+oD55cR+6jxsmPbw00E8baQOw=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum kCLEok+vvStBdYPb1pZ5OtjlZLkPHRrb+LngmUvPoP8=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum OVY1NMhGu9p9OKWcG1PIrEWLEe+WT9zEliapbtHNiZk=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum nOCwiGLLtmXemISH28e0dYbnFOn5vZk6BeZyDHF4kNI=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum R33rZEamAzpEgiWbU9IIlZ9A8zgRqqwcBKkvDRN8mJo=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum W19y/pj9HL2CUkP4aexIpwViIUpjQsgan798eddvYJU=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum Aa03UWMQgYWvuI9ebON7ZspSHR9E1ccHPAS99A6W3Tc=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum PZ/0PQ210hg1XYZfo6ZKJFPIKmhSzlME+s2akSEgcwA=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum W2kiIgcrP3jIikzVB0VIbgu/kAkR4vCk6nRHF+qLBzM=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum nIRA3ODWWL9a6vG+0EQp6tMqgQjCPq6gVY0iwskgNM8=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum zysBS0k7jrJyccCdPRT99dY9awha1I7qCDyYtQFtbPg=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum CtDaamgjlCAuW3rAeNwVstcuLyGaB+Vb9rUj+jOkzwk=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum D1D53oXd7ILlvPEngg6/6dMuT6I+qFn7Sdsg+7LfEzA=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 2asJ8jcafNKeDzXHF9DJgEfUdceVg7FJVXY8BMu+Rwk=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum pYkKNykwU3Yz0ucza0/sgPUKi0nSTVtasBBsdBwV1+U=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum JllWOw7MDAUv/bpGX/sh08xxzdR1dcVWxYxJnnhKowo=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum VT77GZETfRtXvYggLdfSGBUx3da31fOKoraJ/uShgf0=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum abfXYd40Q4HP/SeCTbg2s2sbpy+AhkNZd/5cJb0fsjI=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum /aU4FXYRDXX2FqjaFr+op4TV93oj4B8zAnfc3xISnf4=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum igvoMhCz30ixXp+uvX+iH+o/e6Bf/u8cj48le9FPMew=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum ih0f6PWc7X4uO2p8r5pInfv+ZbSHN853inmssKD1lFg=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 294 bytes of data with checksum Ju8qX1oRaoOlyKc3Bwn+GFWexw8cKKDEoEli7sVlSZ0=
+[001.274][18:23:16.758][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 44 bytes of data with checksum +stgRNlV2PibDeltFH6/4lws3DcOr3S6pksnRMto3IM=
+[001.275][18:23:16.759][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum tLy1D9oVftewjm3x5+AQr3XwHzqIIbBS3R0rpoOSGik=
+[001.275][18:23:16.759][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum UsfmCJ5WJCw2g3Lk8ux++Asqs5J5Di3HIxWGA0hkvyY=
+[001.275][18:23:16.759][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum uem+wK7glosCe2JVdIu5MHNb306P3EDVnghjLsEAKU8=
+[001.275][18:23:16.759][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum 7UDFZ+PxVlsrmETlBq3Gk85NIkNW6VdV139dYYIH49A=
+[001.275][18:23:16.759][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum ckIMlxFIIx7+/6lmPONI/PlT1KE2tm6YPnwWt0tifvI=
+[001.275][18:23:16.759][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum p2Y1gzWqDWSqKdYSH/veL0gkzEeu2nuAht3sXCOLh2o=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum BvYWgVmt19Q6WbBlWLX1x/K9ftLKfHd52IXmy5bCnYY=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum HatUpDP4pIojwVvVOV/EYXY81zCeDy6X1lI203G1EbY=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum 4lPQ7DwbYLV9eCjnb+dcKIzAWjcLBIPNHYVC7Y9Qv8E=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum RGzPKxRPDwVL/QKZ5pJoCM1WSmxdVo3mBbT0StNdWSw=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum kmvHVz2Syy3LH5fbUJfVxhuS9PUb10Y8tqTNM5+/xlo=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum XEb5MomWnYQGxG9B7cob/GQWfjsue2am1P2HKNdgUh4=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum vhgE3GQx61bLf/vOx4/qSjpkq3EPgtPpbucMt63siy4=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum Qf+vHztl7hAKmwIX4BajBXAE6KGXoh04x+T0XCNOHN0=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum HsO/NLbD+GtcGHx4unKU5DuH/DcqWZP3WL5D5a3h+PY=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum 2JINcd74Hzx1xz7x3oHqtaUBqn5dOkFNuLJ4ocuCRxs=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum 60uHXmRzouDmKpRH5r3jkE98s5SgSMSLObkba08OsV8=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 46 bytes of data with checksum O0+bv9hkOXhQZn88CMxMH2dvo1FJ9AGgmS00g0vDMKs=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum LC8SdL4zMMWys/aL4sIxq0oMTq3iHTY5W8qiEUgJ0Ic=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum olluR2IpD9S+m7PV1pZE3DQXDjcouP1FsLSIR6WDHNs=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum 7mRSA6szZxpOZvkJHCmBTH6Hu4waxi6135uitaVgSrM=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum dTRGENV4qwRjcxwI/zcUbuA3gXtjIFoEQJFJH9DGSEs=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum YkbvJpbD1EgcHycdIET+oOaQT4yyewvpSidky+YdV0A=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum UHJ5El1GtFknJf7MPVXzsbhrAgKVZdOsbrQbESYwYp0=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum gjouH33OXarNMEYCJbB9kPpRiaqZ/5EuGVHq5y46258=
+[001.278][18:23:16.762][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 45 bytes of data with checksum DYR0YRkkUZ8CImBbWGpx4aDJueQG7T8nA/mh2NdKacc=
+[001.279][18:23:16.763][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum bhIL5X+97n5G3/8Ccozeah6M0b+zyRPiewqsGIR/+tQ=
+[001.279][18:23:16.763][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum /gHxZTuirT5+MsgQkhBWAbmc/dS7zy107RD4Cln4Q0Q=
+[001.279][18:23:16.763][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum zOwgpL+tj4JjqQugWSUIcVIOK+/Wk3vPInzmGZfH9AE=
+[001.279][18:23:16.763][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum T5xm3skJ6V7PXCM3JVhxwNEBGR2JViq3s2VYd1vcMTU=
+[001.279][18:23:16.763][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum uLGsPgplqmBp9NfU+xe7tfkgDe+VhL03hlJAp6EKgAE=
+[001.279][18:23:16.763][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.204.74.255:61511] [jMlzO/7ldrCki+NW] Received STUN Binding request.
+[001.282][18:23:16.766][DEBUG] [jz263PvGm5WKOToO] Starting connectivity check: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[001.282][18:23:16.766][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 15.204.74.255:61511] [jz263PvGm5WKOToO] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=jz263PvGm5WKOToO, attributes=[Priority(value=1862270207), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@7eb996ab])
+[001.282][18:23:16.766][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 15.204.74.255:61511] [jz263PvGm5WKOToO] Sending STUN request, attempt 1/7
+[001.294][18:23:16.778][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum WRqqeWxetPkwGtUkYWM4RGT4qCPY+wgyxP849y79whc=
+[001.294][18:23:16.778][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum 5rl1f46DNJ1k26Q2JbnqeQPILuM9ymYiR9/QC1wd6x0=
+[001.306][18:23:16.790][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum SFwspsaL6c2aRtAqfScdBmUkwsU71bkGlSOHoO3cR/k=
+[001.306][18:23:16.790][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum doepeykQBhvrIaw9ZVHkPYULYFFUeBl7JrOLUv1FL4k=
+[001.307][18:23:16.791][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum OgA/37XSZixeRwgUTtuouxHFw28P4rMcEzaBC9VpKAM=
+[001.307][18:23:16.791][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum 1e2R6fF3jG7QnRJ7uY2aSpPYCDMJpQqeMwhNIqxvx8Y=
+[001.307][18:23:16.791][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum N6lfrk6H+NkX6C9VJm5yyEDbElA5+NMgSWAVpn7Ehwo=
+[001.307][18:23:16.791][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum t/kq0SjyDOqnanX7DVmNLqZxswv0padzQM89Yd0Ay+U=
+[001.315][18:23:16.799][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum J3bXOvqFnR8rQX7xW7yaA9o3NIXYE/xSF/629QPy+CY=
+[001.315][18:23:16.799][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum leMkeVTTaudi4r+pMxKONQJSWPVkdYROgGss3e417wA=
+[001.317][18:23:16.801][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum QRoUVh/LYXaQ0GWgdIiOG6scZGnpEdqbELx1DjbxtsE=
+[001.318][18:23:16.802][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum nHzOt6+p2kLvR+XMStmTPWf2A26oW1e99qpKGmKx6fw=
+[001.318][18:23:16.802][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 46 bytes of data with checksum iCc/SzZfTPwlAjJprP7FlKbckJtwQ3d/l4qVfzNuWPY=
+[001.318][18:23:16.802][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum eHv9U4Wq5Yw0VwehwtKilBJ92TZlssQdMJkLtrpUXd0=
+[001.318][18:23:16.802][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 45 bytes of data with checksum 4BQpr2X1bkcvzgxgCGkIois7Y/uD4k9G47141L9EpHk=
+[001.319][18:23:16.803][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum 4XdeNQnNiIV0/TtTMVmNRuKB80q56ViqxUZ8K8+nSeI=
+[001.319][18:23:16.803][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum 1N6/r4PHFHhZDPHi6ijscHN5+1pR+xEFj5iT8JU2QAE=
+[001.319][18:23:16.803][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum 321IgWf3UcWLUPi06nkAyAhxGjUM2I8Hz21iVtJnWcc=
+[001.332][18:23:16.816][DEBUG] [HqlFk48Ih79h0sKy] Starting connectivity check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[001.333][18:23:16.817][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 139.99.223.53:62541] [HqlFk48Ih79h0sKy] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=HqlFk48Ih79h0sKy, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1aedd84b])
+[001.333][18:23:16.817][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 139.99.223.53:62541] [HqlFk48Ih79h0sKy] Sending STUN request, attempt 1/7
+[001.342][18:23:16.826][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 23.16.60.2:57329] [rgYo0ejh/xtitaVR] Received STUN Binding request.
+[001.368][18:23:16.852][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 1200 bytes of data with checksum 8sJKDSbFokrlubJFbaiLzw7zgGuuhjZFFZ6c6TOfm54=
+[001.368][18:23:16.852][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 54 bytes of data with checksum cop1Ozh7qP/e9sf7p6V1zkpTKO8bC0G2geSvy5u7SzE=
+[001.383][18:23:16.867][DEBUG] [gQE3vTiUW4FgG+0q] Starting connectivity check: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[001.383][18:23:16.867][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 51.77.108.227:51047] [gQE3vTiUW4FgG+0q] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=gQE3vTiUW4FgG+0q, attributes=[Priority(value=1862270207), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@5141a143])
+[001.383][18:23:16.867][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 51.77.108.227:51047] [gQE3vTiUW4FgG+0q] Sending STUN request, attempt 1/7
+[001.435][18:23:16.919][DEBUG] [CkffoRupLzr++PI/] Starting connectivity check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[001.435][18:23:16.919][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 139.99.223.53:62541] [CkffoRupLzr++PI/] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=CkffoRupLzr++PI/, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@7f50a5e])
+[001.435][18:23:16.919][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 139.99.223.53:62541] [CkffoRupLzr++PI/] Sending STUN request, attempt 1/7
+[001.464][18:23:16.948][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.235.143.176:52007] [CvF+ow4TpzwzWcXu] Received STUN Binding request.
+[001.475][18:23:16.959][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.235.143.176:52007] [ldrlftlcdC5WigrG] Sending STUN request, attempt 2/7
+[001.483][18:23:16.967][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.235.143.176:52007] [ldrlftlcdC5WigrG] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=ldrlftlcdC5WigrG, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/135.148.232.62:65085), gg.essential.ice.stun.StunAttribute$MessageIntegrity@2423006d])
+[001.483][18:23:16.967][DEBUG] [ldrlftlcdC5WigrG] Connectivity check succeeded: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay) (508ms)
+[001.486][18:23:16.970][DEBUG] [DxdzbgINpaLcHPuQ] Starting connectivity check: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[001.486][18:23:16.970][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 15.235.143.176:52007] [DxdzbgINpaLcHPuQ] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=DxdzbgINpaLcHPuQ, attributes=[Priority(value=1862270207), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@7558cd0a])
+[001.486][18:23:16.970][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 15.235.143.176:52007] [DxdzbgINpaLcHPuQ] Sending STUN request, attempt 1/7
+[001.487][18:23:16.971][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 48 bytes of data with checksum T+B4UJ6qEjsqmViRe+e2FW+zk+lwWtd3U3JUPjK6XQw=
+[001.487][18:23:16.971][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum SMPu/qI8dzNFQzTSSrzJHl6nWcp11jhJ++xH8YllCf8=
+[001.487][18:23:16.971][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum fugsDaKWNQbdM100bBUHooBI8Tva+V670g0l+FXaN4o=
+[001.487][18:23:16.971][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum hdSuuXUeg82CNGRszghmrY/CD79HGBWcN8asptJia3g=
+[001.487][18:23:16.971][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum tealVP6JmG2yWgo4G/ucb7qAk0uj5qrDUpbs9RgVm+E=
+[001.487][18:23:16.971][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum G8TAMzOsDEE3k8dr3X1xy840yrZ71KgFXhvqpfjNJLE=
+[001.487][18:23:16.971][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum NMVph0rNlCLpgf3xZmNXE8FCQL8nr5F1MV9gL1K2O7U=
+[001.487][18:23:16.971][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum TzZlwil9dp6mrewT6uK0Mv/HJw3DlH0Qcm/XRVMbw8g=
+[001.489][18:23:16.973][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum VQQqHFTx0dBZcd8L23MIKB3uEhBZKqsyA03J0e1V91k=
+[001.489][18:23:16.973][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum NribEX2/OgYNm3UKjGPTote6olG3q7S5R74eFWHRNOk=
+[001.489][18:23:16.973][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum O+UYgeio6F3OJoloAB6MMvlBtsjy+EGlFcRmv//gUdI=
+[001.489][18:23:16.973][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum Gk+FNtxyTbrTEzGZzT2p57tiEG8j5FwxqdaBb5Irh6k=
+[001.489][18:23:16.973][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum ZrCoNAy3nhCJgnZRx/1YAgO3AntuMeMx4pYdsX/vtR4=
+[001.489][18:23:16.973][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 45 bytes of data with checksum ZwSZuIrJ177u4iaVRwsZ4idYNix5RoETWzMCe1qg4Tw=
+[001.489][18:23:16.973][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum g64SgRmqeUuVHMZVdA7YF661i9gOtffnvcxhtCjXfJg=
+[001.489][18:23:16.973][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum WF7PNwhnmzgBOLCZXPi8aIB2LHplbe9jIT9ax/DXvOQ=
+[001.492][18:23:16.976][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.235.143.176:52007] [x8euYAUa6N/jswae] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=x8euYAUa6N/jswae, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/15.235.143.176:55978), gg.essential.ice.stun.StunAttribute$MessageIntegrity@a99d4b9])
+[001.492][18:23:16.976][DEBUG] [x8euYAUa6N/jswae] Connectivity check succeeded: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay) (364ms)
+[001.506][18:23:16.990][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum RWjNAyQEKxpxq4L+GbV6CTnglJoIuPvCQw4KZ5DPzNQ=
+[001.506][18:23:16.990][DEBUG] QUIC stream closed. Closing QUIC channel.
+[001.506][18:23:16.990][DEBUG] QuicChannel.onReceivingStreamClosed
+[001.507][18:23:16.991][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 52 bytes of data with checksum vDDCAXQkGNg407K4uFLmUAaSaBBebOXQaIBtGnJDtuc=
+[001.507][18:23:16.991][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Sending 42 bytes of data with checksum mpQf8hwrAwpf8M1XrBPKWfOXnjDl5l1DsNP6sxUaopE=
+[001.507][18:23:16.991][DEBUG] QUIC outbound closed
+[001.520][18:23:17.004][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.235.143.176:52007] [YB415TT17MWLxlTq] Received STUN Binding request.
+[001.525][18:23:17.009][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 51.77.108.227:51047] [1TRHhyGgsfM0d5Fb] Sending STUN request, attempt 2/7
+[001.529][18:23:17.013][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 44 bytes of data with checksum zU59o8hcYXBjM3s/sxHT1eVzm1FCscAGo2SX6eJ41n8=
+[001.530][18:23:17.014][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] Received 42 bytes of data with checksum JH7Kxt9f7St+IU5t0WI+E3iTIxv+Acmwo2vm2SxHjAk=
+[001.537][18:23:17.021][DEBUG] [l+SPDQMihS/fhQ2i] Starting connectivity check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[001.537][18:23:17.021][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 139.99.223.53:62541] [l+SPDQMihS/fhQ2i] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=l+SPDQMihS/fhQ2i, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@3add99fe])
+[001.537][18:23:17.021][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 139.99.223.53:62541] [l+SPDQMihS/fhQ2i] Sending STUN request, attempt 1/7
+[001.538][18:23:17.022][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 51.77.108.227:51047] [1TRHhyGgsfM0d5Fb] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=1TRHhyGgsfM0d5Fb, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/15.235.143.176:55978), gg.essential.ice.stun.StunAttribute$MessageIntegrity@4fa91abf])
+[001.538][18:23:17.022][DEBUG] [1TRHhyGgsfM0d5Fb] Connectivity check succeeded: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay) (513ms)
+[001.544][18:23:17.028][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.235.143.176:52007] [Tr5LFhEXJ99okKGF] Received STUN Binding request.
+[001.550][18:23:17.034][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 51.77.108.227:51047] [+fzP/k/XlNrT7Ukx] Received STUN Binding request.
+[001.556][18:23:17.040][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 23.16.60.2:57329] [3lafoCs1RzgtrSRn] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=3lafoCs1RzgtrSRn, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/139.99.223.53:54705), gg.essential.ice.stun.StunAttribute$MessageIntegrity@20f5651e])
+[001.556][18:23:17.040][DEBUG] [3lafoCs1RzgtrSRn] Connectivity check succeeded: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx) (376ms)
+[001.557][18:23:17.041][TRACE] [23.16.60.2:51636 <> 23.16.60.2:57329] [mL4EB0bUHf+7MChn] Sending STUN request, attempt 3/7
+[001.576][18:23:17.060][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.235.143.176:52007] [RmQr4L8WYXbLSBu+] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=RmQr4L8WYXbLSBu+, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/51.77.108.227:54054), gg.essential.ice.stun.StunAttribute$MessageIntegrity@505e5e3c])
+[001.576][18:23:17.060][DEBUG] [RmQr4L8WYXbLSBu+] Connectivity check succeeded: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay) (499ms)
+[001.589][18:23:17.073][DEBUG] [ydJkCuncYRAMydvb] Starting connectivity check: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[001.589][18:23:17.073][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 139.99.223.53:62541] [ydJkCuncYRAMydvb] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=ydJkCuncYRAMydvb, attributes=[Priority(value=1862270207), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@3379c8bf])
+[001.589][18:23:17.073][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 139.99.223.53:62541] [ydJkCuncYRAMydvb] Sending STUN request, attempt 1/7
+[001.590][18:23:17.074][TRACE] [23.16.60.2:51636 <> 139.99.223.53:62541] [HbAni5qO6hRLFc0W] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=HbAni5qO6hRLFc0W, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/23.16.60.2:51636), gg.essential.ice.stun.StunAttribute$MessageIntegrity@5979cf4b])
+[001.590][18:23:17.074][DEBUG] [HbAni5qO6hRLFc0W] Connectivity check succeeded: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay) (358ms)
+[001.607][18:23:17.091][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:2a8e:1f2e:1831:4e4:57328] [EJ5kLjpURmy+1U3o] Sending STUN request, attempt 3/7
+[001.641][18:23:17.125][TRACE] [z0EXAJv1jRyU2lUn] Starting rtt check: /192.168.50.111:51636 -> /192.168.50.119:57329 (host)
+[001.641][18:23:17.125][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] [z0EXAJv1jRyU2lUn] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=z0EXAJv1jRyU2lUn, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@7579460b])
+[001.641][18:23:17.125][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] [z0EXAJv1jRyU2lUn] Sending STUN request, attempt 1/7
+[001.655][18:23:17.139][TRACE] [192.168.50.111:51636 <> 139.99.223.53:62541] [YP/9oUpm7PyEaIXD] Received STUN Binding request.
+[001.666][18:23:17.150][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 15.204.74.255:61511] [jz263PvGm5WKOToO] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=jz263PvGm5WKOToO, attributes=[Software(value=essential.gg v1.3.5.7), TransactionTransmitCounter(request=1, response=0), XorMappedAddress(address=/139.99.223.53:54705), gg.essential.ice.stun.StunAttribute$MessageIntegrity@6250bc47])
+[001.666][18:23:17.150][DEBUG] [jz263PvGm5WKOToO] Connectivity check succeeded: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay) (383ms)
+[001.671][18:23:17.155][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.235.143.176:52007] [/c8xuHP/KadQHUxs] Received STUN Binding request.
+[001.691][18:23:17.175][TRACE] [+/3GpQEAwllg7PY/] Starting rtt check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[001.691][18:23:17.175][TRACE] [23.16.60.2:51636 <> 15.204.74.255:61511] [+/3GpQEAwllg7PY/] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=+/3GpQEAwllg7PY/, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@640087e7])
+[001.691][18:23:17.175][TRACE] [23.16.60.2:51636 <> 15.204.74.255:61511] [+/3GpQEAwllg7PY/] Sending STUN request, attempt 1/7
+[001.702][18:23:17.186][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 15.204.74.255:61511] [sHyRW8g2s4t7CwhX] Received STUN Binding request.
+[001.712][18:23:17.196][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:4987:caad:2c6b:a92f:57330] [5doZY98EU7m2VD92] Sending STUN request, attempt 3/7
+[001.742][18:23:17.226][TRACE] [Ktpos6lWCulYv/9z] Starting rtt check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[001.742][18:23:17.226][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 23.16.60.2:57329] [Ktpos6lWCulYv/9z] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=Ktpos6lWCulYv/9z, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@38bb1918])
+[001.742][18:23:17.226][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 23.16.60.2:57329] [Ktpos6lWCulYv/9z] Sending STUN request, attempt 1/7
+[001.761][18:23:17.245][TRACE] [23.16.60.2:51636 <> 172.22.208.1:57331] [42b8gP85mpaM5+67] Sending STUN request, attempt 3/7
+[001.792][18:23:17.276][TRACE] [3A+PRTGbVEkfZzoC] Starting rtt check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[001.792][18:23:17.276][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.204.74.255:61511] [3A+PRTGbVEkfZzoC] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=3A+PRTGbVEkfZzoC, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@a85cc6a])
+[001.792][18:23:17.276][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.204.74.255:61511] [3A+PRTGbVEkfZzoC] Sending STUN request, attempt 1/7
+[001.811][18:23:17.295][TRACE] [fe80:0:0:0:6d7b:7892:f1b9:1fac%wlan0:51635 <> fe80:0:0:0:9840:84d4:5a6a:17ab:51070] [WmH2QyBcLOHNCYgP] Sending STUN request, attempt 3/7
+[001.833][18:23:17.317][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 139.99.223.53:62541] [HqlFk48Ih79h0sKy] Sending STUN request, attempt 2/7
+[001.843][18:23:17.327][TRACE] [Aw/rvpOXaCPszmgz] Starting rtt check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[001.843][18:23:17.327][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 23.16.60.2:57329] [Aw/rvpOXaCPszmgz] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=Aw/rvpOXaCPszmgz, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@390670ad])
+[001.843][18:23:17.327][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 23.16.60.2:57329] [Aw/rvpOXaCPszmgz] Sending STUN request, attempt 1/7
+[001.860][18:23:17.344][TRACE] [23.16.60.2:51636 <> 172.24.128.1:57163] [x1pVGYF4b7dok+Mx] Sending STUN request, attempt 3/7
+[001.884][18:23:17.368][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 51.77.108.227:51047] [gQE3vTiUW4FgG+0q] Sending STUN request, attempt 2/7
+[001.895][18:23:17.379][TRACE] [fjRB6TNjdfNVkWhJ] Starting rtt check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[001.895][18:23:17.379][TRACE] [23.16.60.2:51636 <> 51.77.108.227:51047] [fjRB6TNjdfNVkWhJ] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=fjRB6TNjdfNVkWhJ, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@3caa823f])
+[001.895][18:23:17.379][TRACE] [23.16.60.2:51636 <> 51.77.108.227:51047] [fjRB6TNjdfNVkWhJ] Sending STUN request, attempt 1/7
+[001.935][18:23:17.419][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 139.99.223.53:62541] [CkffoRupLzr++PI/] Sending STUN request, attempt 2/7
+[001.947][18:23:17.431][TRACE] [o0EUJFhEDgy6x4Cd] Starting rtt check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[001.948][18:23:17.432][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.204.74.255:61511] [o0EUJFhEDgy6x4Cd] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=o0EUJFhEDgy6x4Cd, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@18c8d1e5])
+[001.948][18:23:17.432][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.204.74.255:61511] [o0EUJFhEDgy6x4Cd] Sending STUN request, attempt 1/7
+[001.988][18:23:17.472][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 15.235.143.176:52007] [DxdzbgINpaLcHPuQ] Sending STUN request, attempt 2/7
+[001.997][18:23:17.481][TRACE] [QAF+NlxzBBFXYMYE] Starting rtt check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[001.997][18:23:17.481][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 51.77.108.227:51047] [QAF+NlxzBBFXYMYE] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=QAF+NlxzBBFXYMYE, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@2457abd2])
+[001.997][18:23:17.481][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 51.77.108.227:51047] [QAF+NlxzBBFXYMYE] Sending STUN request, attempt 1/7
+[002.038][18:23:17.522][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 139.99.223.53:62541] [l+SPDQMihS/fhQ2i] Sending STUN request, attempt 2/7
+[002.049][18:23:17.533][TRACE] [Bkx0W72vIx/2UxEl] Starting rtt check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[002.049][18:23:17.533][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 51.77.108.227:51047] [Bkx0W72vIx/2UxEl] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=Bkx0W72vIx/2UxEl, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1b0bbdfc])
+[002.049][18:23:17.533][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 51.77.108.227:51047] [Bkx0W72vIx/2UxEl] Sending STUN request, attempt 1/7
+[002.091][18:23:17.575][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 139.99.223.53:62541] [ydJkCuncYRAMydvb] Sending STUN request, attempt 2/7
+[002.100][18:23:17.584][TRACE] [LCsE1HwXh2nnnJlv] Starting rtt check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[002.100][18:23:17.584][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 23.16.60.2:57329] [LCsE1HwXh2nnnJlv] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=LCsE1HwXh2nnnJlv, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@d42dac7])
+[002.100][18:23:17.584][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 23.16.60.2:57329] [LCsE1HwXh2nnnJlv] Sending STUN request, attempt 1/7
+[002.141][18:23:17.625][TRACE] [192.168.50.111:51636 <> 192.168.50.119:57329] [z0EXAJv1jRyU2lUn] Sending STUN request, attempt 2/7
+[002.151][18:23:17.635][TRACE] [+Kt7ChbJZ7D1z6Xo] Starting rtt check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[002.151][18:23:17.635][TRACE] [23.16.60.2:51636 <> 15.235.143.176:52007] [+Kt7ChbJZ7D1z6Xo] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=+Kt7ChbJZ7D1z6Xo, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@1d15b997])
+[002.151][18:23:17.635][TRACE] [23.16.60.2:51636 <> 15.235.143.176:52007] [+Kt7ChbJZ7D1z6Xo] Sending STUN request, attempt 1/7
+[002.192][18:23:17.676][TRACE] [23.16.60.2:51636 <> 15.204.74.255:61511] [+/3GpQEAwllg7PY/] Sending STUN request, attempt 2/7
+[002.201][18:23:17.685][TRACE] [rrRBexWs94guQ439] Starting rtt check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /15.204.74.255:61511 (relay)
+[002.201][18:23:17.685][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.204.74.255:61511] [rrRBexWs94guQ439] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=rrRBexWs94guQ439, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@11cd0b9])
+[002.201][18:23:17.685][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.204.74.255:61511] [rrRBexWs94guQ439] Sending STUN request, attempt 1/7
+[002.242][18:23:17.726][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 23.16.60.2:57329] [Ktpos6lWCulYv/9z] Sending STUN request, attempt 2/7
+[002.251][18:23:17.735][TRACE] [dwjrhjXjm6agOiTH] Starting rtt check: /135.148.232.62:65085 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[002.251][18:23:17.735][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.235.143.176:52007] [dwjrhjXjm6agOiTH] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=dwjrhjXjm6agOiTH, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@6675ec7])
+[002.251][18:23:17.735][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.235.143.176:52007] [dwjrhjXjm6agOiTH] Sending STUN request, attempt 1/7
+[002.294][18:23:17.778][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 15.204.74.255:61511] [3A+PRTGbVEkfZzoC] Sending STUN request, attempt 2/7
+[002.301][18:23:17.785][TRACE] [L6qrc+bBvaiREdqd] Starting rtt check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[002.301][18:23:17.785][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.235.143.176:52007] [L6qrc+bBvaiREdqd] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=L6qrc+bBvaiREdqd, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@f7d1654])
+[002.301][18:23:17.785][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 15.235.143.176:52007] [L6qrc+bBvaiREdqd] Sending STUN request, attempt 1/7
+[002.344][18:23:17.828][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 23.16.60.2:57329] [Aw/rvpOXaCPszmgz] Sending STUN request, attempt 2/7
+[002.352][18:23:17.836][TRACE] [kqODxHQ1762+CK3W] Starting rtt check: /15.235.143.176:55978 (relayed for /192.168.50.111:51636) -> /51.77.108.227:51047 (relay)
+[002.352][18:23:17.836][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 51.77.108.227:51047] [kqODxHQ1762+CK3W] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=kqODxHQ1762+CK3W, attributes=[Priority(value=1862270463), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@2e92e351])
+[002.352][18:23:17.836][TRACE] [192.168.50.111:51636 <> 15.235.143.176:55978 <> 51.77.108.227:51047] [kqODxHQ1762+CK3W] Sending STUN request, attempt 1/7
+[002.397][18:23:17.881][TRACE] [23.16.60.2:51636 <> 51.77.108.227:51047] [fjRB6TNjdfNVkWhJ] Sending STUN request, attempt 2/7
+[002.402][18:23:17.886][TRACE] [Qg0eY6jCjDDdu4tG] Starting rtt check: /139.99.223.53:54705 (relayed for /192.168.50.111:51636) -> /23.16.60.2:57329 (srflx)
+[002.402][18:23:17.886][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 23.16.60.2:57329] [Qg0eY6jCjDDdu4tG] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=Qg0eY6jCjDDdu4tG, attributes=[Priority(value=1862270207), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@4b85271e])
+[002.402][18:23:17.886][TRACE] [192.168.50.111:51636 <> 139.99.223.53:54705 <> 23.16.60.2:57329] [Qg0eY6jCjDDdu4tG] Sending STUN request, attempt 1/7
+[002.448][18:23:17.932][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.204.74.255:61511] [o0EUJFhEDgy6x4Cd] Sending STUN request, attempt 2/7
+[002.453][18:23:17.937][TRACE] [+pEPhtOQiepuXiqr] Starting rtt check: /51.77.108.227:54054 (relayed for /192.168.50.111:51636) -> /15.235.143.176:52007 (relay)
+[002.453][18:23:17.937][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.235.143.176:52007] [+pEPhtOQiepuXiqr] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=+pEPhtOQiepuXiqr, attributes=[Priority(value=1862270719), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@4e815c42])
+[002.453][18:23:17.937][TRACE] [192.168.50.111:51636 <> 51.77.108.227:54054 <> 15.235.143.176:52007] [+pEPhtOQiepuXiqr] Sending STUN request, attempt 1/7
+[002.499][18:23:17.983][TRACE] [192.168.50.111:51636 <> 135.148.232.62:65085 <> 51.77.108.227:51047] [QAF+NlxzBBFXYMYE] Sending STUN request, attempt 2/7
+[002.503][18:23:17.987][TRACE] [g5tfanHHsE94CyOE] Starting rtt check: /23.16.60.2:51636 (server-reflexive for /192.168.50.111:51636) -> /139.99.223.53:62541 (relay)
+[002.503][18:23:17.987][TRACE] [23.16.60.2:51636 <> 139.99.223.53:62541] [g5tfanHHsE94CyOE] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=g5tfanHHsE94CyOE, attributes=[Priority(value=1862270975), IceControlled(tiebreaker=0), TransactionTransmitCounter(request=0, response=0), Username(username=essential-q-692e9500:essential-qv65513-c91e9e6e), gg.essential.ice.stun.StunAttribute$MessageIntegrity@35304d16])
+[002.503][18:23:17.987][TRACE] [23.16.60.2:51636 <> 139.99.223.53:62541] [g5tfanHHsE94CyOE] Sending STUN request, attempt 1/7
+[002.508][18:23:17.992][DEBUG] QuicChannel.onClosed
+[002.510][18:23:17.994][DEBUG] Connection shut down cleanly, closing ICE now.
+[002.599][18:23:18.083][INFO] End of log.
