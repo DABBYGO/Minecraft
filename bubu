@@ -1,0 +1,108 @@
+def remove_expense(expense_data):
+    print("--- Remove an Expense ---")
+    
+    available_cats = []
+    for key in expense_data:
+        available_cats.append(key)
+        print("- " + key)
+        
+    category_input = input("Which category do you want to delete from: ")
+    
+    is_valid_category = False
+    for c in available_cats:
+        if c == category_input:
+            is_valid_category = True
+            
+    if is_valid_category == True:
+        current_list = expense_data[category_input]
+        
+        if len(current_list) == 0:
+            print("There is nothing in this category to delete.")
+        else:
+            print("Here are the items in " + category_input + ":")
+            
+            counter = 0
+            for thing in current_list:
+                item_name = thing["item"]
+                item_price = thing["price"]
+                print(item_name, "costs", item_price)
+                counter = counter + 1
+                
+            item_to_delete = input("Type the EXACT name of the item to delete: ")
+            
+            found = False
+            index_location = -1
+            
+            for i in range(len(current_list)):
+                check_dict = current_list[i]
+                if check_dict["item"] == item_to_delete:
+                    found = True
+                    index_location = i
+            
+            if found == True:
+                expense_data[category_input].pop(index_location)
+                print("Successfully deleted the item.")
+            else:
+                print("Error: Could not find an item with that name.")
+                
+    else:
+        print("That category does not exist in the list.")
+    
+    return expense_data
+
+def filter_expenses(data_dictionary):
+    print("\n--- Filter Options ---")
+    print("1. Show only one Category")
+    print("2. Show items under a certain price")
+    
+    user_choice = input("Enter 1 or 2: ")
+    
+    if user_choice == "1":
+        print("Available Categories:")
+        keys_list = list(data_dictionary.keys())
+        for k in keys_list:
+            print(k)
+            
+        pick_cat = input("Type the category name: ")
+        
+        if pick_cat in data_dictionary:
+            the_items = data_dictionary[pick_cat]
+            print("\nFiltered Results for:", pick_cat)
+            
+            how_many = 0
+            for x in the_items:
+                name_val = x["item"]
+                price_val = x["price"]
+                print("Item:", name_val, "| Price: $", price_val)
+                how_many = how_many + 1
+                
+            if how_many == 0:
+                print("No items found in this category.")
+        else:
+            print("Sorry, that category is not in the system.")
+            
+    elif user_choice == "2":
+        price_string = input("Enter the maximum price limit: ")
+        
+        if price_string.replace('.', '', 1).isdigit():
+            max_limit = float(price_string)
+            print("\nItems costing less than $", max_limit)
+            
+            found_any = False
+            
+            for cat_key in data_dictionary:
+                inner_list = data_dictionary[cat_key]
+                for product in inner_list:
+                    cost = product["price"]
+                    if cost <= max_limit:
+                        print(product["item"], "in (" + cat_key + ") - Cost: $", cost)
+                        found_any = True
+            
+            if found_any == False:
+                print("No items found that are cheaper than that.")
+        else:
+            print("Please enter a valid number next time.")
+            
+    else:
+        print("Invalid selection, please try again.")
+
