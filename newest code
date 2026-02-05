@@ -1,0 +1,58 @@
+def remove_expense(expense_list):
+    print("\n--- Remove Expense ---")
+    category = input("Enter category to remove from: ")
+    
+    if category in expense_list:
+        item_to_find = input("Enter the item name to delete: ")
+        found_flag = False
+        category_items = expense_list[category]
+        
+        for i in range(len(category_items)):
+            if category_items[i]["item"] == item_to_find:
+                category_items.pop(i)
+                print("Item deleted")
+                found_flag = True
+                break
+        
+        if found_flag == False:
+            print("Could not find that item")
+    else:
+        print("That category is not real")
+    return expense_list
+
+def filter_expenses(expense_list):
+    print("\n--- Filter Category ---")
+    cat_to_show = input("Enter category to view: ")
+    
+    if cat_to_show in expense_list:
+        items_list = expense_list[cat_to_show]
+        print("Showing items in " + cat_to_show)
+        
+        for val in items_list:
+            name = val["item"]
+            cost = val["price"]
+            print("Item: " + str(name) + " | Price: " + str(cost))
+            
+        if len(items_list) == 0:
+            print("Category is empty")
+    else:
+        print("Category not found")
+
+while True:
+    print("\n--- MENU ---")
+    print("1. Filter and View")
+    print("2. Remove an Item")
+    print("3. Add more (Restart)")
+    print("4. Exit")
+    
+    user_pick = input("Pick an option: ")
+    
+    if user_pick == "1":
+        filter_expenses(expenses)
+    elif user_pick == "2":
+        expenses = remove_expense(expenses)
+    elif user_pick == "3":
+        expenses = expense()
+    elif user_pick == "4":
+        break
+
